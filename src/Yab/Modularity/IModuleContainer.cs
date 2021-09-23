@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Yab.Modularity
 {
-    public abstract class YabModule
+    /// <summary>
+    /// 模块容器接口
+    /// </summary>
+    public interface IModuleContainer
     {
     }
 }

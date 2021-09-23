@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Yab.Demo.AspNetCoreWeb
+namespace Yab.Demo.WebDemo
 {
     public class Startup
     {
