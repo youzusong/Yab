@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Yab.Uow
+namespace Yab.UnitOfWork
 {
-    public interface IUnitOfWork
+    /// <summary>
+    /// 
+    /// </summary>
+    public interface IDatabaseApi
     {
+
     }
 }

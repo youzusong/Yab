@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Yab.Uow
+namespace Yab.EntityFrameworkCore
 {
-    public interface IUnitOfWorkManager
+    public class EfDbContextOptions
     {
-
     }
 }

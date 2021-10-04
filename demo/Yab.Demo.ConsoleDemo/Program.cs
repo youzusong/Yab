@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Hosting;
 using System;
+using System.Transactions;
 
 namespace Yab.Demo.ConsoleDemo
 {
@@ -12,6 +13,8 @@ namespace Yab.Demo.ConsoleDemo
                 CreateHostBuilder(args).RunConsoleAsync();
                 Console.WriteLine("已启动");
                 Console.ReadLine();
+
+
             }
             catch (Exception ex)
             {
