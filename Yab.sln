@@ -27,6 +27,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yab.DDD.Domain", "src\Yab.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yab.EntityFrameworkCore", "src\Yab.EntityFrameworkCore\Yab.EntityFrameworkCore.csproj", "{1523503C-8F42-4FFC-A8A2-F73B11E95747}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yab.Caching.Memory", "src\Yab.Caching.Memory\Yab.Caching.Memory.csproj", "{EA42AB1A-0FD7-404C-A3A2-0E80A337C67A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yab.Caching.Distributed", "src\Yab.Caching.Distributed\Yab.Caching.Distributed.csproj", "{EBCF3099-8D4C-4F60-8826-465B2C1029ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{1523503C-8F42-4FFC-A8A2-F73B11E95747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1523503C-8F42-4FFC-A8A2-F73B11E95747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1523503C-8F42-4FFC-A8A2-F73B11E95747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA42AB1A-0FD7-404C-A3A2-0E80A337C67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA42AB1A-0FD7-404C-A3A2-0E80A337C67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA42AB1A-0FD7-404C-A3A2-0E80A337C67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA42AB1A-0FD7-404C-A3A2-0E80A337C67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCF3099-8D4C-4F60-8826-465B2C1029ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCF3099-8D4C-4F60-8826-465B2C1029ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCF3099-8D4C-4F60-8826-465B2C1029ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCF3099-8D4C-4F60-8826-465B2C1029ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +95,8 @@ Global
 		{61ED861D-6FF5-4979-9047-40623FB2F36A} = {3662CE64-B725-441E-83B4-731AA4E736F7}
 		{9D03AA5E-399C-44D3-9CA1-FA509CB6B022} = {D230C2A4-F427-43C0-B783-F31F62C56707}
 		{1523503C-8F42-4FFC-A8A2-F73B11E95747} = {D230C2A4-F427-43C0-B783-F31F62C56707}
+		{EA42AB1A-0FD7-404C-A3A2-0E80A337C67A} = {D230C2A4-F427-43C0-B783-F31F62C56707}
+		{EBCF3099-8D4C-4F60-8826-465B2C1029ED} = {D230C2A4-F427-43C0-B783-F31F62C56707}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {210641C9-7966-4459-88AF-5FB40978CA6E}
